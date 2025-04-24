@@ -6,3 +6,6 @@ node_modules/
 .env           # 环境变量文件（含敏感信息）
 dist/          # 构建产物目录
 *.log          # 所有日志文件
+
+# 忽略 history 目录
+history/
