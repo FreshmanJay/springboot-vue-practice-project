@@ -36,9 +36,13 @@ Some tools used in this project:
 
         Here I choose Maven project, Java, 2.3.12.RELEASE, jar, 8, single module, components such as spring web, JDBC api, MyBatis, MySQL, etc., and leave other settings as default.
 
-![](C:\Users\mi\Desktop\springboot\springboot-vue-practice-project\descriptionImage\screenshot_2025-04-24_10-46-47.png)
 
-![](C:\Users\mi\Desktop\springboot\springboot-vue-practice-project\descriptionImage\screenshot_2025-04-24_10-47-29.png)
+
+![](assets/1f5e5ded56e9fbcd2e34ecef466a47cb61a6c4be.png)
+
+
+
+![](assets/3772eabec3e129306348ff0b27b1d355fa82ce98.png)
 
     （2）直接使用idea（idea U版本，社区版的没有此功能）工具构建新项目
 
@@ -50,9 +54,13 @@ Some tools used in this project:
 
                 The Java JDK version I use here is 1.8.0_201
 
-        ![](C:\Users\mi\Desktop\springboot\springboot-vue-practice-project\descriptionImage\screenshot_2025-04-24_10-52-21.png)
+        
 
-![](C:\Users\mi\Desktop\springboot\springboot-vue-practice-project\descriptionImage\屏幕截图%202025-04-26%20120929.png)
+![](assets/61af0f76c168c2bb7b4ac93ad65e0b772cab2a0d.png)
+
+
+
+![](assets/62b56009ce7eae27b17ac0c727f6e9ac289e162d.png)
 
 ### 2.搭建数据库环境
 
@@ -62,7 +70,11 @@ Some tools used in this project:
 
     I am using MySQL 5.7.44, Navicat Premium Lite Community Edition
 
-![](C:\Users\mi\Desktop\springboot\springboot-vue-practice-project\descriptionImage\screenshot_2025-04-24_10-44-31.png)
+
+
+
+
+![](assets/6997db0a73a11666bd25bc6fef65dd1ba62d9647.png)
 
 ### 3.前端环境搭建
 
@@ -92,9 +104,11 @@ After the front-end and back-end projects are started, the effect is as shown be
 
 ![](assets/d0cb426bc56a589aade80b167659fac709f40994.png)
 
-![](assets/1dce097258354ac3952ee7d57ce8da7e2c47c112.png)![](C:\Users\mi\Desktop\springboot\springboot-vue-practice-project\descriptionImage\screenshot_2025-04-24_10-41-04.png)![](assets/7c876dacb37a73ba4ce17b19f8f20e408a24e46f.png)
+![](assets/1dce097258354ac3952ee7d57ce8da7e2c47c112.png)
 
-![](C:\Users\mi\Desktop\springboot\springboot-vue-practice-project\descriptionImage\screenshot_2025-04-24_10-41-20.png)
+![](assets/7c876dacb37a73ba4ce17b19f8f20e408a24e46f.png)
+
+![](assets/eba52cce1ff63593c1a4aebb400ad825c76f7cbd.png)
 
 ![](assets/a3eccf28a42565e66bdb1dcd0dd3812c84db8a2b.png)
 
