@@ -1,0 +1,52 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE mapper PUBLIC
+        "-//mybatis.org//DTD com.example.Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.mapper.UserMapper">
+
+    <resultMap id="result" type="com.example.demo.entity.User">
+        <result property="userId" column="userId" />
+        <result property="userType" column="userType" />
+        <result property="userName" column="userName" />
+        <result property="deptId" column="deptId"/>
+        <result property="traderId" column="traderId"/>
+        <result property="traderName" column="traderName"/>
+    </resultMap>
+
+    <select id="findUserByName" resultMap="result">
+        SELECT * FROM user
+        where userName like concat(concat('%',#{userName}),'%')
+        order by userId asc
+        LIMIT #{offset}, #{limit}
+    </select>
+
+    <select id="getRowCountByName" resultType="Integer">
+        select count(*) from user
+        where userName like concat(concat('%',#{userName}),'%')
+    </select>
+
+    <insert id="insertUser" parameterType="com.example.demo.entity.User">
+        INSERT INTO user
+        (
+            userId,userType,userName,deptId,traderId,traderName
+        )
+        VALUES (
+           #{userId},
+           #{userType, jdbcType=VARCHAR},
+           #{userName, jdbcType=VARCHAR},
+           #{deptId, jdbcType=VARCHAR},
+           #{traderId, jdbcType=VARCHAR},
+           #{traderName, jdbcType=VARCHAR}
+       )
+    </insert>
+
+    <delete id="delete" parameterType="int">
+        delete from user where userId=#{userId}
+    </delete>
+
+    <update id="Update" parameterType="com.example.demo.entity.User">
+        update user
+        set user.userType=#{userType},user.userName=#{userName},user.deptId=#{deptId},user.traderId=#{traderId},user.traderName=#{traderName}
+        where user.userId=#{userId}
+    </update>
+</mapper>
