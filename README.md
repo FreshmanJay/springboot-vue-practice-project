@@ -72,8 +72,6 @@ Some tools used in this project:
 
 
 
-
-
 ![](assets/6997db0a73a11666bd25bc6fef65dd1ba62d9647.png)
 
 ### 3.前端环境搭建
